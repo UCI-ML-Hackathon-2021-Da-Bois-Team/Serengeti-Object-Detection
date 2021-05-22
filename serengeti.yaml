@@ -1,0 +1,23 @@
+# train command: python train.py --data serengeti.yaml
+# dataset location should be next to yolov5 folder
+#	/parent_folder
+#		/serengeti
+#     /images (.jpg files)
+#       /training
+#       /validation
+#       /testing
+#     /labels (.txt files)
+#       /trainings
+#       /validation
+#       /testing
+#		/yolov5
+
+train: ../serengeti/images/training/
+val:   ../serengeti/images/validation/
+test:  ../serengeti/images/testing/
+
+# number of classes
+nc: 4
+
+#class names
+names: ['animal', 'person', 'group', 'vehicle']
