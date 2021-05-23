@@ -12,6 +12,7 @@ Data Preprocessing:
 Yolov5 Model:
   What we have:
   - Yolov5 is implemented to train on a small dataset of the Serengeti Data. 
+
   What we will work on:
   - Its hyperparameters are evaluated using its built-in genetic algorithm. 
   - The model will then trains on its optimized hyperparameters on a larger Yolov5 Data. 
